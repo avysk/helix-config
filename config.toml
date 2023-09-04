@@ -3,6 +3,7 @@ theme = "base16_transparent"
 [editor]
 line-number = "relative"
 true-color = true
+rulers = [80]
 
 [keys.insert]
 "C-c" = "normal_mode"
