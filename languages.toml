@@ -1,0 +1,19 @@
+[[language]]
+name = "python"
+auto-format = true
+rulers = [72, 80]
+
+[language.config.pylsp.plugins]
+flake8 = {enabled = false}
+autopep8 = {enabled = false}
+mccabe = {enabled = false}
+pycodestyle = {enabled = false}
+pyflakes = {enabled = false}
+pylint = {enabled = true, args = ["--max-line-length 79"]}
+yapf = {enabled = false}
+black = {enabled = true, line_length = 79}
+
+
+[[language]]
+name = "rust"
+rulers = [100]
