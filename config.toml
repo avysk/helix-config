@@ -4,6 +4,16 @@ theme = "base16_transparent"
 line-number = "relative"
 true-color = true
 rulers = [80]
-
 [keys.insert]
 "C-c" = "normal_mode"
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+newline = "all"
+
+[editor.whitespace.characters]
+nbsp = "⍽"
+tab = "→"
+newline = "⏎"
+tabpad = "·"
